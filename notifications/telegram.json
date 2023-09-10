@@ -1,0 +1,18 @@
+{
+  "base": {
+    "logo": "toto.png",
+    "project": "${JOB_BASE_NAME}",
+    "environment": "web",
+    "comment": "some comment",
+    "reportLink": "${BUILD_URL}",
+    "language": "ru",
+    "messenger": "telegram",
+    "allureFolder": "build/allure-report/",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6440478569:AAH3a6VpofMQwymqNzHmdYagMFeY8wofbIQ",
+    "chat": "-1001824247825",
+    "replyTo": ""
+  }
+}
