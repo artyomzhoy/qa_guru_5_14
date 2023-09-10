@@ -32,6 +32,7 @@ def browser_size(request):
 
     login = os.getenv('LOGIN')
     password = os.getenv('PASSWORD')
+    token = os.getenv('BOT_TOKEN')
 
     driver = webdriver.Remote(
         command_executor=f"https://{login}:{password}@selenoid.autotests.cloud/wd/hub",

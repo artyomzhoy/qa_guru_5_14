@@ -1,6 +1,6 @@
 {
   "base": {
-    "logo": "toto.png",
+    "logo": "notifications/toto40_40.png",
     "project": "${JOB_BASE_NAME}",
     "environment": "web",
     "comment": "some comment",
