@@ -11,7 +11,7 @@
     "enableChart": true
   },
   "telegram": {
-    "token": "6440478569:AAH3a6VpofMQwymqNzHmdYagMFeY8wofbIQ",
+    "token": "${BOT_TOKEN}",
     "chat": "-1001824247825",
     "replyTo": ""
   }
