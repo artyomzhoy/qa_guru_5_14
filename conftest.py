@@ -10,7 +10,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from utils import attach
 
 
-@pytest.fixture(scope='session',
+@pytest.fixture(scope='function',
                 autouse=True,
                 params=[(1920, 1080), (1600, 900), (1366, 768), (375, 667), (667, 375), (480, 800)],
                 ids=['desktop', 'desktop', 'desktop', 'mobile', 'mobile', 'mobile'])
