@@ -3,6 +3,7 @@
 tests/homework/allure-results
 tests/allure-results
 allure-results
+allure-report
 
 ### Python template
 # Byte-compiled / optimized / DLL files
